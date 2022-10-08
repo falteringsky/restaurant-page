@@ -219,7 +219,7 @@ li>button {
 }
 
 .slider-food-img {
-    width: 480px;
+    width: 500px;
     height: 320px;
 }
 
@@ -236,6 +236,7 @@ li>button {
     display: flex;
     padding-top: 17px;
     justify-content: flex-end;
+    align-items: center;
     font-size: 12px;
     font-family: "gibson_semibold", arial, serif;
     line-height: 20px;
@@ -249,4 +250,8 @@ li>button {
 .divider-links {
     margin-left: 4px;
     margin-right: 4px;
+}
+
+.tab.active {
+    border-bottom: 2px solid rgb(75, 21, 20);
 }
