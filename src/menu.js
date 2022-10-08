@@ -26,7 +26,6 @@ function setBtnActive(butn) {
         food.appendChild(helper('span', '', 'underline'));
         food.appendChild(helper('span', `${price}`, ''));
 
-    // const ingredients = foodIngredients(ingred1, ingred2, ingred3, ingred4);
     return food
   }
 
@@ -67,8 +66,6 @@ function setBtnActive(butn) {
     setBtnActive('menu-btn');
   
     const foods = [
-        // createFoodItem('35', 'Quattro Formaggi', 'Mozzarella', 'Gorgonzola', 'Fontina', 'Grana Padano'),
-        // createFoodItem('40', 'Napoletana', 'Dough Type 0', 'Brewer Yeast', 'Buffalo Mozzarella', 'San Martano Tomatoe'),
         createFoodSection('Pizza', 'Quattro Formaggi', '35', 'Mozzarella', 'Gorgonzola', 'Fontina', 'Grana Padano', 'Napoletana', '40', 'Dough Type 0', 'Brewer Yeast', 'Buffalo Mozzarella', 'San Martano Tomatoe'),
         createFoodSection('Pasta', 'Fettuccine Alfredo', '20', 'Heavy Cream', 'Garlic Clove', 'Parmesan Cheese', 'Italian Parsley', 'Spaghetti', '25', 'Extra-virgin Oil', 'Garlic Cloves', 'Anchovies', 'Carbonara Sauce'),
         createFoodSection('Meat', 'Barilla Lasagna', '15', 'Italian Sausage', 'Mozzarella Cheese', 'Parmigiano-Reggiano cheese', 'Ricotta Cheese', 'Meatballs', '18', 'Ground Beef/Pork', 'Onions', 'Parmesan Cheese', 'Black & Red pepper'),
