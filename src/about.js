@@ -30,19 +30,19 @@ function createSideBar() {
     
     const person1 = helper('div', '', 'person');
       const personImage1 = helper('img', '', 'person-img');
-      personImage1.src = '~/repos/restaurant-page/dist/images/chef-1.jpg';
+      personImage1.src = 'https://cdn.pixabay.com/photo/2015/08/16/12/37/man-890880_960_720.jpg';
       person1.appendChild(personImage1);
       person1.appendChild(helper('h4', 'RODRIGO VIARPI', ''));
  
     const person2 = helper('div', '', 'person');
       const personImage2 = helper('img', '', 'person-img');
-      personImage2.src = '~/repos/restaurant-page/dist/images/chef-2.jpg';
+      personImage2.src = 'https://cdn.pixabay.com/photo/2015/08/16/12/38/man-890885_960_720.jpg';
       person2.appendChild(personImage2);
       person2.appendChild(helper('h4', 'JEFFI PIASON', ''));
 
     const person3 = helper('div', '', 'person');
       const personImage3 = helper('img', '', 'person-img');
-      personImage3.src = 'https://pixabay.com/images/id-4282016/';
+      personImage3.src = 'https://cdn.pixabay.com/photo/2019/06/18/10/46/platting-4282016_960_720.jpg';
       person3.appendChild(personImage3);
       person3.appendChild(helper('h4', 'CARLOS CHANEL', ''));      
 
@@ -62,7 +62,7 @@ function createSideContent() {
       const carouselWrapper = helper('div', '', 'carousel-wrapper');
       sliderHolder.appendChild(carouselWrapper);
       const sliderImage1 = helper('img', '', 'slider-food-img');
-      sliderImage1.src = '';
+      sliderImage1.src = 'https://cdn.pixabay.com/photo/2014/04/22/02/55/pasta-329521_960_720.jpg';
       carouselWrapper.appendChild(sliderImage1);
 
       const sliderNav = helper('div', '', 'slider-nav');
